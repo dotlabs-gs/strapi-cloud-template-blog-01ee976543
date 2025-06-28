@@ -43,6 +43,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::bar.bar"
+    },
+    "restaurantId": {
+      "type": "string"
+    },
+    "placeId": {
+      "type": "string"
     }
   }
 }
