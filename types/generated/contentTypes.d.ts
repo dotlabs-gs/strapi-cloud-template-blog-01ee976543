@@ -501,6 +501,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     price: Schema.Attribute.BigInteger;
     publishedAt: Schema.Attribute.DateTime;
     restaurantId: Schema.Attribute.String;
+    suggestions: Schema.Attribute.Relation<'oneToMany', 'api::product.product'>;
     tags: Schema.Attribute.Relation<'oneToMany', 'api::tag.tag'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
