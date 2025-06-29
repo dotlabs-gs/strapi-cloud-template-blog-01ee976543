@@ -451,6 +451,7 @@ export interface ApiLocationLocation extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     name: Schema.Attribute.String;
     neighborhood: Schema.Attribute.String;
+    placeId: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     state: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;

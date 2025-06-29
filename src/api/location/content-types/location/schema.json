@@ -22,6 +22,9 @@
     },
     "state": {
       "type": "string"
+    },
+    "placeId": {
+      "type": "string"
     }
   }
 }
