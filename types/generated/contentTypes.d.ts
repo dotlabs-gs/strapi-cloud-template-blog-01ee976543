@@ -489,6 +489,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     imageUrl: Schema.Attribute.String;
     isActive: Schema.Attribute.Boolean;
     isPromotion: Schema.Attribute.Boolean;
+    isSugestion: Schema.Attribute.Boolean;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

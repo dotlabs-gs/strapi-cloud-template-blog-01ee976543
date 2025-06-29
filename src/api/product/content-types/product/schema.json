@@ -52,6 +52,9 @@
     },
     "isPromotion": {
       "type": "boolean"
+    },
+    "isSugestion": {
+      "type": "boolean"
     }
   }
 }
