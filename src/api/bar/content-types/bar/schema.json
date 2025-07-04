@@ -11,10 +11,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "zigBarId": {
+    "name": {
       "type": "string"
     },
-    "name": {
+    "zigBarId": {
       "type": "string"
     },
     "description": {
