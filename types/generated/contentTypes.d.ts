@@ -394,6 +394,7 @@ export interface ApiBannerBanner extends Struct.CollectionTypeSchema {
       'api::banner.banner'
     > &
       Schema.Attribute.Private;
+    menu: Schema.Attribute.Relation<'oneToOne', 'api::menu.menu'>;
     path: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
