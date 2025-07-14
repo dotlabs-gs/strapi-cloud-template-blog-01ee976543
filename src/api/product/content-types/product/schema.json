@@ -11,6 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "name": {
+      "type": "string"
+    },
     "zigId": {
       "type": "string"
     },
@@ -19,9 +22,6 @@
     },
     "isActive": {
       "type": "boolean"
-    },
-    "name": {
-      "type": "string"
     },
     "price": {
       "type": "biginteger"
@@ -60,6 +60,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product"
+    },
+    "segmentations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::segmentation.segmentation"
     }
   }
 }
